@@ -5,6 +5,11 @@ $(document).ready(function() {
 		return;
 	}
 
+	
+	$.each(demo, function(index, val) {
+		localStorage.setItem(val.key, val.value);
+	});
+	
 	$("#zabirepoVersion").text(zabirepo.VERSION);
 
 	// TODO 保存されたセッションIDでログインする
