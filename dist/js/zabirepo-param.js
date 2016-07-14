@@ -1,4 +1,4 @@
-var baseURL = '//usiusi360.ddns.net:11004/zabbix';
+var baseURL = '//usiusi360.ddns.net/zabbix';
 var graphURL = baseURL + '/chart.php';
 var apiURL = baseURL + '/api_jsonrpc.php';
 
