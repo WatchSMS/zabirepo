@@ -1151,6 +1151,12 @@ var int = {
 			scroll : true,
 			helper : "original"
 		});
+
+		
+		$("#graph_setting-tbody").bind('click.sortable mousedown.sortable',function(ev){
+		    ev.target.focus();
+		});
+
 		$("#graph_setting-tbody").disableSelection();
 
 	},
