@@ -17,8 +17,8 @@ var zabirepo = {
 	GRAPH_TYPE : 0, // 0:line,1:stack
 	GRAPH_HEIGHT : 300,
 	GRAPH_WIDTH : 800,
-	GRAPH_CELL_LIMIT : 40,
-	GRAPH_ITEM_LIMIT : 40,
+	GRAPH_CELL_LIMIT : 100,
+	GRAPH_ITEM_LIMIT : 100,
 	reloadId : null
 };
 
