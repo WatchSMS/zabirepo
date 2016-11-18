@@ -24,7 +24,7 @@ var zabirepo = {
 
 var demo = [ {
 	key : 'beforeDay',
-	value : '"180"'
+	value : '"75"'
 }, {
 	key : 'groupNamesArray',
 	value : '[{"groupid":"9","groupName":"DB Servers"},{"groupid":"8","groupName":"Web Servers"},{"groupid":"4","groupName":"Zabbix servers"}]'
