@@ -21,6 +21,10 @@ $(document).ready(function() {
 	$("#submit_login").click(function() {
 		int.ready();
 	});
+	
+	
+	$("#base_dashboard").load("base_dashboard.html");
+
 
 });
 
