@@ -413,6 +413,28 @@ var int = {
 			$("#setting").show();
 		});
 
+		$("#menu_serverlist").click(function() {
+			
+			
+			$("#serverlist").append('<li><a href="#" id="server_a"><i class="fa fa-bar-chart"></i> a</a></li>');  
+
+			$("#server_a").click(function() {
+				$("[id^=base]").hide();
+				$("#host_info").show();
+//				int.dashboardView();
+			});
+
+
+			
+
+
+			
+			
+		    $("#serverlist").append('<li><a href="#" id="menu_overview"><i class="fa fa-bar-chart"></i> b</a></li>');  
+			
+			
+		});
+
 		// ##### dashboard #####
 
 		$("#reload_dashboard").click(function() {
@@ -947,16 +969,7 @@ var int = {
 	},
 
 	dcCreate : function() {
-		// $("#chart_severity").empty();
-		// $("#chart_hostGroup").empty();
-		// $("#chart_host").empty();
-		// $("#eventList").empty();
-		//
-		// $("#chart_severity *").off();
-		// $("#chart_hostGroup *").off();
-		// $("#chart_host *").off();
-		// $("#eventList *").off();
-
+		
 		// for SystemStatus
 		zbxApi.triggerInfo.get().done(function(data, status, jqXHR) {
 
@@ -1160,6 +1173,7 @@ var int = {
 			$("#form_beforeDay").val("7");
 
 		}
+
 		var groupNames = db.get("groupNamesArray");
 		var keyNames = db.get("keyNamesArray");
 		if (groupNames === null || $.isEmptyObject(groupNames) === true || keyNames === null || $.isEmptyObject(keyNames) === true) {

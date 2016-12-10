@@ -24,7 +24,7 @@
 		// initialize options
 		options = $.extend({
 			// default settings
-			url : 'http://localhost/zabbix/api_jsonrpc.php',
+			url : 'http://zabbix.oplab.co.kr/api_jsonrpc.php',
 			username : 'Admin',
 			password : 'zabbix',
 			basicauth : false,
