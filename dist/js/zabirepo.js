@@ -428,7 +428,6 @@ var int = {
 			$("#server_a").click(function() {
 				$("[id^=base]").hide();
 				$("#base_hostinfo").show();
-				alert();
 				hostinfoView();
 			});
 
@@ -1193,7 +1192,7 @@ var int = {
 
 var hostinfoView = function() {
 
-	alert();
+	console.log("fff");
 	
 	var svg = d3.select("svg"),
     margin = {top: 20, right: 20, bottom: 30, left: 40},
