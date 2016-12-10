@@ -1292,7 +1292,7 @@ function drawChart() {
     title: 'CPU Usage',
     hAxis: {title: 'Year',  titleTextStyle: {color: '#333'}},
     vAxis: {minValue: 0},
-    legend.position: 'buttom',
+    legend: {position: 'buttom', maxLines: 3},
     isStacked: true
   };
 
