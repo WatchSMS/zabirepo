@@ -1280,14 +1280,16 @@ google.charts.setOnLoadCallback(drawChart);
 function drawChart() {
   var data = google.visualization.arrayToDataTable([
     ['Year', 'Sales', 'Expenses'],
-    ['2013',  1000,      400],
+    ['2011',  1200,      400],
+    ['2012',  1030,      400],
+    ['2013',  1004,      400],
     ['2014',  1170,      460],
     ['2015',  660,       1120],
     ['2016',  1030,      540]
   ]);
 
   var options = {
-    title: 'Company Performance',
+    title: 'CPU Usage',
     hAxis: {title: 'Year',  titleTextStyle: {color: '#333'}},
     vAxis: {minValue: 0}
   };
