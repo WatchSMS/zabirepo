@@ -27,6 +27,7 @@ $(document).ready(function() {
 	$("#base_event").load("base_event.html");
 	$("#base_graph").load("base_graph.html");
 	$("#base_setting").load("base_setting.html");
+	$("#base_hostinfo").load("base_hostinfo.html");
 
 
 });
