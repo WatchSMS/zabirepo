@@ -426,6 +426,7 @@ var int = {
 			$("#serverlist").append('<li><a href="#" id="server_a"><i class="fa fa-bar-chart"></i> a</a></li>');  
 
 			$("#server_a").click(function() {
+				alert();
 				$("[id^=base]").hide();
 				$("#base_hostinfo").show();
 //				int.dashboardView();
