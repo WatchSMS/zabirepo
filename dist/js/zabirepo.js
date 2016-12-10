@@ -1279,19 +1279,21 @@ google.charts.setOnLoadCallback(drawChart);
 
 function drawChart() {
   var data = google.visualization.arrayToDataTable([
-    ['Year', 'Sales', 'Expenses'],
-    ['2011',  1200,      400],
-    ['2012',  1030,      400],
-    ['2013',  1004,      400],
-    ['2014',  1170,      460],
-    ['2015',  660,       1120],
-    ['2016',  1030,      540]
+    ['Year', 'system', 'user'],
+    ['01/01',  10,      10],
+    ['01/02',  30,      3],
+    ['01/03',  4,      40],
+    ['01/04',  70,      1],
+    ['01/05',  60,       20],
+    ['01/06',  30,      40]
   ]);
 
   var options = {
     title: 'CPU Usage',
     hAxis: {title: 'Year',  titleTextStyle: {color: '#333'}},
-    vAxis: {minValue: 0}
+    vAxis: {minValue: 0},
+    legend.position: 'buttom',
+    isStacked: true
   };
 
   var chart = new google.visualization.AreaChart(document.getElementById('chart_div'));
