@@ -24,6 +24,7 @@ $(document).ready(function() {
 	
 	
 	$("#base_dashboard").load("base_dashboard.html");
+	$("#base_event").load("base_event.html");
 
 
 });
