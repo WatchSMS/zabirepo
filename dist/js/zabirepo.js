@@ -29,7 +29,6 @@ $(document).ready(function() {
 	$("#base_setting").load("base_setting.html");
 	$("#base_hostinfo").load("base_hostinfo.html");
 
-
 });
 
 var zbxApi = {
@@ -428,15 +427,10 @@ var int = {
 
 			$("#server_a").click(function() {
 				$("[id^=base]").hide();
-				$("#host_info").show();
+				$("#base_hostinfo").show();
 //				int.dashboardView();
 			});
 
-
-			
-
-
-			
 			
 		    $("#serverlist").append('<li><a href="#" id="menu_overview"><i class="fa fa-bar-chart"></i> b</a></li>');  
 			
