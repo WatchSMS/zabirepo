@@ -423,7 +423,7 @@ var int = {
 		$("#menu_serverlist").click(function() {
 			
 			
-			$("#serverlist").append('<li><a href="#" id="server_a"><i class="fa fa-bar-chart"></i> a</a></li>');  
+			$("#serverlist").append('<li><a href="#" id="server_a"><i class="fa fa-bar-chart"></i>host1</a></li>');  
 
 			$("#server_a").click(function() {
 				$("[id^=base]").hide();
@@ -432,7 +432,7 @@ var int = {
 			});
 
 			
-		    $("#serverlist").append('<li><a href="#" id="menu_overview"><i class="fa fa-bar-chart"></i> b</a></li>');  
+		    $("#serverlist").append('<li><a href="#" id="menu_overview"><i class="fa fa-bar-chart"></i>host2</a></li>');  
 			
 			
 		});
