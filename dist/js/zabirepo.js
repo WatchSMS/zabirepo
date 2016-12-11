@@ -1203,7 +1203,7 @@ $(function () {
             type: 'area'
         },
         title: {
-            text: 'US and USSR nuclear stockpiles'
+            text: 'CPU사용량'
         },
         subtitle: {
             text: 'Source: <a href="http://thebulletin.metapress.com/content/c4120650912x74k7/fulltext.pdf">' +
@@ -1276,7 +1276,7 @@ $(function () {
             type: 'area'
         },
         title: {
-            text: 'US and USSR nuclear stockpiles'
+            text: '메모리 사용량'
         },
         subtitle: {
             text: 'Source: <a href="http://thebulletin.metapress.com/content/c4120650912x74k7/fulltext.pdf">' +
