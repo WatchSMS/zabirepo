@@ -431,7 +431,7 @@ var int = {
 				hostinfoView();
 			});
 
-			
+			//
 		    $("#serverlist").append('<li><a href="#" id="menu_overview"><i class="fa fa-bar-chart"></i>host2</a></li>');  
 			
 			
